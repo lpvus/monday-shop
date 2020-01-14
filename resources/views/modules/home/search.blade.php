@@ -33,7 +33,7 @@
                                     <span id="cart-number" class="cart-number"
                                           style="height: 24px; line-height: 30px;">
                                         <span id="count" title="购物车总数量">0</span>
-                                        <sup id="local" title="本地购物车" style="font-size: 10px">0</sup>
+                                        {{--<sup id="local" title="本地购物车" style="font-size: 10px">0</sup>--}}
                                     </span>
                                 </div>
                                 <span class="title" id="car_title" style="font-size: 12px;">购物车</span>

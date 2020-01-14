@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => env('APP_NAME') . ' admin',
+    'name' => env('APP_NAME') . ' 后台管理',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => env('APP_NAME') . ' admin',
+    'logo' => env('APP_NAME') . ' 后台管理',
 
     /*
     |--------------------------------------------------------------------------
@@ -250,7 +250,7 @@ return [
     | This value is used to set the background image of login page.
     |
     */
-    'login_background_image' => '/images/background.gif',
+    'login_background_image' => '',
 
     /*
     |--------------------------------------------------------------------------

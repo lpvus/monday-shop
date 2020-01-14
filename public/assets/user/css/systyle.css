@@ -146,7 +146,7 @@ a em.m-num { margin-left: 4px;color: #F40;}
 .user-news .s-msg-item {width:25%;}	
 
 
-.wrap-list {width:80%;}
+.wrap-list {width:100%;}
 /*右边栏*/
 .wrap-right{ display:block;width:20%;float:left; margin-left:-20%; padding:0px 10px;}
 .i-history-trigger { background:url(../images/%E5%9B%BE%E6%A0%87.png);background-position: -33px -22px;left: 0px;}
