@@ -16,8 +16,8 @@
                         <small>回到
                             <a href="/" class="color-green">首 页</a>
                         </small>
-                        <span style="color: red; font-size: 12px;">(请务必将[<span style="font-weight: bold">{{ config('mail.username') }}</span>]加入邮件白名单,否则无法收到激活邮件)
-                        </span>
+                        {{--<span style="color: red; font-size: 12px;">(请务必将[<span style="font-weight: bold">{{ config('mail.username') }}</span>]加入邮件白名单,否则无法收到激活邮件)--}}
+                        {{--</span>--}}
                     </h3>
                     <div class="row row-rl-0">
                         <div class="col-sm-6 col-md-7 col-left">
@@ -114,8 +114,8 @@
                         </div>
                         <div class="col-sm-6 col-md-5 col-right">
                             <div class="social-login p-40">
-                                @include('auth.oauth')
                                 <div class="text-center color-mid">
+                                    @include('auth.logo')
                                     已经有账号 ? <a href="/login" class="color-green">登录</a>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
         $('#register_form').submit(function(){
 
             if(! $('#agree_terms').is(':checked')) {
-                $('#checkbox_text').text('请同意MondayShop隐私声明');
+                $('#checkbox_text').text('请同意鹏飞商城隐私声明');
 
                 setTimeout(function(){
                     $('#checkbox_text').text('');

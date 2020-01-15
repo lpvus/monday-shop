@@ -15,17 +15,17 @@
                             </a>
                             <em class="s-name">
                                 {{ $user->name }}
-                                <img src="{{ assertUrl($level->icon) }}" alt="{{ $level->name }}" title="{{ $level->name }}" style="width: 32px; height: 32px;">
+                                <img src="{{ assertUrl($level->icon) }}" alt="{{ $level->name }}" title="{{ $level->name }}" style="width: 70px; height: 25px;">
                             </em>
 
                         </div>
                         <div class="m-right">
                             <div class="m-new">
-                                <a href="/user/notifications"><i class="am-icon-bell-o"></i>消息<em style="color: #fff;">({{ $user->notifications_count }})</em></a>
+                                <a href="/user/notifications"><i class="am-icon-bell-o"></i>系统消息<em style="color: #fff;">({{ $user->notifications_count }})</em></a>
                             </div>
 
                             <div class="m-address">
-                                <a style="color: #337ab7; font-weight: bold" href="/user/addresses" class="i-trigger">我的收货地址<em style="color: #fff;">({{ $user->addresses_count }})</em></a>
+                                <a href="/user/addresses"><i class="am-icon-bus"></i>收货地址<em style="color: #fff;">({{ $user->addresses_count }})</em></a>
                             </div>
                         </div>
                     </div>

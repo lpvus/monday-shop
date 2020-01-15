@@ -8,7 +8,7 @@ use Illuminate\Queue\SerializesModels;
 
 class SubscribesNotice extends Mailable
 {
-    public $subject = '星期一商城订阅消息';
+    public $subject = '商城订阅消息';
     public $unSubUrl;
 
     public function __construct($url)

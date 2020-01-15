@@ -17,7 +17,8 @@ a.i-trigger { cursor: pointer;position: relative; z-index: 2;display: block; pad
 
 .m-new{position: absolute; right:5%;top:35px;z-index: 22;}
 .m-new a{color:#fff;}
-.am-icon-bell-o{margin-right:10px ;}
+.am-icon-bell-o  {margin-right:10px ;}
+.am-icon-bus {margin-right:10px ;}
 /*资产*/
 .m-userproperty{overflow: hidden;padding:15px 10px;background:#fff ;}
 .m-userproperty p{float: left;width:33.33% ;text-align: center;}

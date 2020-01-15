@@ -318,13 +318,13 @@
             <div class="footer">
                 <div class="footer-hd">
                     <p>
-                        <a href="#">星期一商城</a>
+                        <a href="#">关于我们</a>
                         <b>|</b>
                         <a href="#">商城首页</a>
                         <b>|</b>
-                        <a href="#">支付宝</a>
+                        <a href="#">支付信息</a>
                         <b>|</b>
-                        <a href="#">物流</a>
+                        <a href="#">物流信息</a>
                     </p>
                 </div>
                 @include('modules.home.footer')

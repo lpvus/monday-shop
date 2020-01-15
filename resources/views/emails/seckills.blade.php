@@ -13,7 +13,7 @@
 ****
 
 @component('mail::button', ['url' => "/"])
-来星期一商城看看
+来商城看看
 @endcomponent
 
 @endcomponent

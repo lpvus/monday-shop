@@ -20,7 +20,7 @@
 ****
 
 @component('mail::button', ['url' => "/"])
-来星期一商城看看
+来商城看看
 @endcomponent
 
 感谢你花时间查看本周的订阅消息 | [取消订阅]({{ $unSubUrl }})
